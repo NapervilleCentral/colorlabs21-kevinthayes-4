@@ -20,9 +20,7 @@ public class SheparFaireyLab
         
          //opens selfie picture 
           /**/
-         String fileName = FileChooser.pickAFile();
-         Picture pictObj = new Picture(fileName);
-         pictObj.explore();
+         
          
          //relative path
          Picture apic = new Picture("images\\beach.jpg");
